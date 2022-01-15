@@ -1,8 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Cinzel&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    border: none;
+}
+
 body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
     color: cornflowerblue;
     background-image: url(../images/jeans.jpg);
     background-repeat: no-repeat;
+    font-family: cinzel;
+    font-weight: 500;
+
+}
+h1{
 
 }
 
