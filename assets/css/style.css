@@ -9,13 +9,54 @@
 body{
 
     color: cornflowerblue;
-    background-image: url(../images/jeans.jpg);
+    background-image: url(../images/jeans.jpg) 100%;
     background-repeat: no-repeat;
-    font-family: cinzel;
-    font-weight: 500;
+    font-family: cinzel, sans-serif;
+    font-weight: 600;
+    color: #3a3a3a;
 
 }
-h1{
+h1, h2{
+    font-family: cinzel, sans-serif;
+    letter-spacing: 2px;
+    color: #252525;
 
 }
 
+#logo{
+    float: left;
+    font-size: 250%;
+    margin-left: 20px;
+}
+
+/* navigation */
+
+#menu{
+    font-size: 150%;
+    letter-spacing: 2px;
+    float: right;
+}
+
+#menu, #logo{
+    line-height: 75px;
+}
+
+#menu li{
+    float: left;
+    list-style: none;
+    padding-right: 20px;
+
+}
+
+#menu a{
+    text-decoration: none;
+    color:inherit;
+}
+
+#menu a:hover{
+    border-bottom: 1px solid #252525;
+}
+
+.active{
+    border-bottom: 1px solid #252525;
+}
