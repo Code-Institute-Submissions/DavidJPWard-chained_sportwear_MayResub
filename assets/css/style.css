@@ -1,4 +1,8 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: cornflowerblue;
+    background-image: url(../images/jeans.jpg);
+    background-repeat: no-repeat;
+
 }
+
