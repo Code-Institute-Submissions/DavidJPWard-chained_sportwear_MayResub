@@ -71,19 +71,32 @@ h1, h2{
 
 /* hero image */
 
-.center-fit{
-    display: grid;
+#hero-outer {
     height: 300px;
+    width: 100%;
+    overflow: hidden;
 
 }
 
-.hero-image{
-    max-width: 100%;
-    max-height: 100vh;
-    margin: auto;
+#hero-image{
+    height: 300px;
+    width: 100%;
+    background: url("../images/BACKGROUND2.png") no-repeat center center;
 
-
-
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 
 }
+
+
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
 
