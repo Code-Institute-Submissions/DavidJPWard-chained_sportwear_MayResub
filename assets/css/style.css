@@ -13,23 +13,26 @@ body{
     background-repeat: no-repeat;
     font-family: lexend peta, sans-serif;
     font-weight:100;
-    color: #ffffff;
+    color: #000000;
 
 }
 h1, h2{
     font-family: lexend peta, sans-serif;
     letter-spacing: 2px;
-    color: #ffffff;
+    color: #000000;
 
 }
 
 #logo{
+    color: #ffffff;
     float: left;
     font-size: 250%;
     font-weight:lighter;
 
     margin-left: 20px;
 }
+
+
 
 /* navigation */
 
@@ -53,6 +56,7 @@ h1, h2{
     float: left;
     list-style: none;
     padding-right: 20px;
+    color:#ffffff;
 
 }
 
@@ -75,7 +79,11 @@ h1, h2{
     height: 300px;
     width: 100%;
     overflow: hidden;
+    position: relative;
+}
 
+#cover-text, #cover-text h2{
+    color: #000000
 }
 
 #hero-image{
@@ -99,4 +107,40 @@ h1, h2{
     }
 }
 
+#cover-text{
+    font-size: 130%;
+    font-family: abel;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    width: 450px;
+    height: 100px;
 
+    padding-top: 20px;
+    padding-left: 10px;
+    background-color: rgb(64, 64, 64, .85);
+
+    bottom: 30px;
+    right: 150px;
+    position: absolute;
+
+}
+
+footer{
+    height: 150px;
+    
+}
+
+.media-links{
+    text-align: center;
+}
+
+.media-links > li{
+    display: inline;
+}
+
+.media-links i{
+    font-size:  160%;
+    margin: 1%;
+    padding: 5%;
+    color:#000000
+}
