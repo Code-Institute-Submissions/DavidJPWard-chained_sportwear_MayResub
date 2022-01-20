@@ -214,3 +214,25 @@ footer{
     color: #000000;
 }
 
+/*gallery */
+
+.gallery{
+    height: 800px;
+    width: 80%;
+    margin: auto;
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.gallery-image{
+    height: 250px;
+    width: 250px;
+    background-color: aqua;
+    display: inline-block;
+    padding: 10px;
+margin: 50px;
+text-align: left;
+    
+}
