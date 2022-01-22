@@ -204,8 +204,8 @@ footer{
 
 .media-links i{
     font-size:  160%;
-    margin: 1%;
-    padding: 5%;
+    margin: 6%;
+
     color:#000000
 }
 
@@ -216,11 +216,11 @@ footer{
 
 /*gallery */
 
-.gallery{
+.center{
     height: 800px;
     width: 80%;
     margin: auto;
-    background-color: black;
+
     padding: 20px;
     text-align: center;
     
@@ -232,7 +232,38 @@ footer{
     background-color: aqua;
     display: inline-block;
     padding: 10px;
-margin: 50px;
-text-align: left;
+    margin: 50px;
+    text-align: left;
     
+}
+
+.gallery-image-text{
+    background-color: #ffffff;
+}
+
+/*contact*/
+
+.info-format{
+    text-align: left;
+    margin: 30px 10% 0 10%;
+}
+
+.info-format > h1, h2{
+    font-family: abel;
+    margin: 10px;
+}
+
+table{
+    width: 80%;
+    text-align: left;
+    
+}
+
+table, th, td{
+    padding: 5px;
+margin: 10px;
+}
+
+.map{
+    margin: 10px;
 }
