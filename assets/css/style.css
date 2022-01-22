@@ -11,7 +11,7 @@ body{
 
     background-image: url(../images/jeans.jpg) 100%;
     background-repeat: no-repeat;
-    font-family: lexend peta, sans-serif;
+    font-family: abel, sans-serif;
     font-weight:100;
     color: #000000;
 
@@ -24,10 +24,11 @@ h1{
 }
 
 h2{
-    font-family: abel ,sans-serif;
+    font-family: lexend peta ,sans-serif;
     letter-spacing: 2px;
     color: #000000;
 }
+
 
 #logo{
     color: #ffffff;
@@ -250,8 +251,10 @@ footer{
 
 .info-format > h1, h2{
     font-family: abel;
-    margin: 10px;
+    margin: 30px;
 }
+
+
 
 table{
     width: 80%;
@@ -260,10 +263,26 @@ table{
 }
 
 table, th, td{
-    padding: 5px;
-margin: 10px;
+    font-family: abel;
+    font-size: 120%;
+    padding: 5px 0 5px 0;
+    margin-left: 30px;
 }
 
 .map{
     margin: 10px;
+}
+
+/*privacy*/
+
+ul{
+    margin-left: 5%;
+}
+
+li{
+    margin: 5px 0 5px 40px;
+}
+
+.policy-format > p{
+    margin: 10px 0 10px 5%;
 }
