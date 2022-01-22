@@ -217,7 +217,7 @@ footer{
 
 /*gallery */
 
-.center{
+.gallery{
     height: 800px;
     width: 80%;
     margin: auto;
@@ -227,19 +227,30 @@ footer{
     
 }
 
+.image-placeholder{
+    height: 250px;
+    width: 250px;
+    
+    display: inline-block;
+
+    margin: 50px;
+    text-align: center;
+
+    
+}
+
 .gallery-image{
     height: 250px;
     width: 250px;
     background-color: aqua;
-    display: inline-block;
-    padding: 10px;
-    margin: 50px;
-    text-align: left;
-    
+border: 1px solid #000000;
+display: block;
 }
 
 .gallery-image-text{
+    margin: 0;
     background-color: #ffffff;
+    width: 50%;
 }
 
 /*contact*/
