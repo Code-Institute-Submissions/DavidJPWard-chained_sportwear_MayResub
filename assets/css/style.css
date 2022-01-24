@@ -34,6 +34,8 @@ h2{
 }
 
 
+
+
 #logo{
     color: #ffffff;
     float: left;
@@ -81,6 +83,34 @@ h2{
 
 .active{
     border-bottom: 1px solid #92f1fa;
+}
+
+.login-popup{
+    position:fixed;
+    top: 80px;
+    right: 10px;
+    height: 300px;
+    width:30%;
+    max-width: 500px;
+    min-width:400px;
+    background-color: #ababab;
+    border-radius: 3px;
+    padding: 15px 30px; 
+    opacity:0%;
+    pointer-events: none;
+}
+
+.login-popup.show{
+    opacity:1;
+    pointer-events: auto;
+}
+
+.login-button{
+    height: 65px;
+    width: 95px;
+    margin: 0 0 0 40px;
+    border-radius: 3px;
+
 }
 
 /* hero image */
