@@ -26,13 +26,48 @@
         <div id=nav-border></div>
     </header>
  
-    <h1>fetured items</h1>
+    <h1 class="title">featured items</h1>
     <hr>
     <h2>high quality</h2>
 
-    <div>
+    <div id=store>
+    <div class=store-nav> 
+        <label for=filter class=store-filter>Sort By:</label>
+        <Select name=filter id="filterbox" class=store-filter>
+            <option value="featured">Featured</option>
+            <option value="low-cost">Price - low to high</option>
+            <option value="high-cost">Price - high to low</option>
+            <option value="highest-rated">Most popular</option>
+        </Select>
+        <label for=size class=store-filter>Size:</label>
+        <select name=size id="sizebox" class=store-filter>
+            <option value="small">S</option>
+            <option value="medium">M</option>
+            <option value="large">L</option>
+            <option value="extra-large">XL</option>
+        </select>
+    </div>
+
+
+
+    <div class=store-item>
+
+            <img src="assets/images/store-yellowskirt.png" alt="">
+            <div>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <h5>clothes</h5>
+            <h4>£4.00</h4>
+            <button>Buy Now</button>
+
+    </div>
+    <div class=store-item>
         <div>
-            <img src="" alt="">
+            <img src="assets/images/Store-pinktop.png" alt="">
             <div>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -45,9 +80,9 @@
             <button>Buy Now</button>
         </div>
     </div>
-    <div>
+    <div class=store-item>
         <div>
-            <img src="" alt="">
+            <img src="assets/images/store-pinkskirt.png" alt="">
             <div>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -60,9 +95,9 @@
             <button>Buy Now</button>
         </div>
     </div>
-    <div>
+    <div class=store-item>
         <div>
-            <img src="" alt="">
+            <img src="assets/images/store-greydress.png" alt="">
             <div>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -75,21 +110,8 @@
             <button>Buy Now</button>
         </div>
     </div>
-    <div>
-        <div>
-            <img src="" alt="">
-            <div>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-            </div>
-            <h5>clothes</h5>
-            <h4>£4.00</h4>
-            <button>Buy Now</button>
-        </div>
     </div>
+
 
     <footer>
         <ul class="media-links">
