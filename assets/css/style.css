@@ -14,6 +14,7 @@ body{
     font-family: abel, sans-serif;
     font-weight:100;
     color: #000000;
+    margin-top: 100px;
 
 }
 h1{
@@ -60,6 +61,13 @@ h2{
     background-color: #ffffff;
 }
 
+header{
+    position: fixed;
+    z-index: +1;
+    width: 100%;
+    top: 0;
+}
+
 
 /* navigation */
 
@@ -73,6 +81,7 @@ h2{
     font-size: 110%;
     letter-spacing: 2px;
     float: right;
+    margin-right: 100px;
 }
 
 #menu, #logo{
@@ -127,6 +136,10 @@ h2{
     width: 95px;
     margin: 0 0 0 40px;
     border-radius: 3px;
+    top: 5px;
+    right: 5px;
+    position: absolute;
+
 }
 
 #login-greeting{
@@ -168,6 +181,61 @@ h2{
     font-size: 150%;
     text-align: center;
 }
+
+/* sign up page*/
+
+
+
+
+.sign-up-format{
+
+    width: 100%;
+    background-color: brown;
+    height: 100%;
+
+}
+#sign-up-form{
+    background-color: aqua;
+    height: 100%;
+    width: 45%;
+        margin:0;
+        display: inline-block;
+        text-align: center;
+}
+#sign-up-form-image{
+    height: 100%;
+    width: 40%;
+    background-color: coral;
+    margin: 0;
+    display: inline-block;  
+}
+
+
+
+#sign-up-form-image img{
+    width: 400px;
+    height: 100%;
+    border-radius: 50%;
+}
+.sign-up-input{
+    font-size: 150%;
+    display: block;
+    text-align: right;
+    height: 50px;
+}
+
+.sign-up-common-info div{
+    margin: 0;
+}
+
+#sign-up-form input{
+    
+    height: 20px;
+    width: 300px;
+    background-color: #d9d9d9;
+    margin: 10px 30px 0 0;
+}
+
 
 
 /* hero image */
@@ -371,7 +439,7 @@ footer{
     margin: 30px 10% 0 10%;
     height: auto;
     text-align: center;
-
+    
     
 }
 
@@ -459,3 +527,43 @@ ul{
 .policy-format > p{
     margin: 10px 0 10px 5%;
 }
+
+/*media queries*/
+@media screen and (max-width: 850px){
+
+
+    #about{
+        width: 100%;
+        height: auto;
+    }
+    #about > div{
+        float: none;
+        display: block;
+        width: 100%;
+    }
+
+    #nav-border{
+        height: 150px;
+
+    }
+
+    body{
+        margin-top: 200px;
+    }
+
+    .login-popup{
+        margin-top: 80px;
+    }
+    #menu{
+        clear: left;
+        float: left;
+        min-width: 380px;
+    }
+
+    #open{
+        top: 15px;
+        right: 15px;
+    }
+}
+
+

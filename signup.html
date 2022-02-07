@@ -7,7 +7,7 @@
     <meta name="description" content="Fashion blog to showcase, promote and sell Chained Sportswear merchandise">
     <meta name="keywords" content="chained sportswear, fashion, blog">
     <script src="https://kit.fontawesome.com/9363cd3469.js" crossorigin="anonymous"></script>
- 
+
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Chained Sportswear</title>
 </head>
@@ -40,36 +40,71 @@
                 <li><a href="gallery.html"><i class="fas fa-image"></i> Gallery</a></li>
                 <li><a href="store.html"><i class="fas fa-shopping-bag"></i> Store</a></li>
 
-                <li><button id="open" class=login-nav-button><i class="fas fa-user"></i>Login</i></button></li> 
-                <script src="assets/js/script.js"></script>
+                
+                
 
             </ul>
+            
         </nav>
-        <div id=nav-border></div>
+        <div id=nav-border>
+            <button id="open" class=login-nav-button><i class="fas fa-user"></i>Login</i></button>
+            <script src="assets/js/script.js"></script>
+        </div>
     </header>
 
     <div class="center-div">
         <div class="title">
-        <h1>Welcome to <strong>Chained</strong></h1>
-        <h2>Your only a few steps away from starting your journey with us, just fill out the form below</h2>
-        <hr>
-        <h3>For infomation on how we handle your data, veiw our privacy policy <a href="privacy.html">here.</a> </h3>
-    </div>
-
-    <form action="">
-        <label for="fname">First name: </label>
-        <label for="lname">Last name: </label>
-        <label for="email">E-mail:</label>
-        <label for="password">Password: </label>
-        <label for="confirm-password">Confirm password: </label>
-        <label for="phone-number">Mobile No.: </label>
-        <label for="Gender">Gender: </label>
-
-        <label for="Card no"></label>
-    </form>
-
-    </div>
+            <h1>Welcome to <strong>Chained</strong></h1>
+            <h2>Your only a few steps away from starting your journey with us, just fill out the form below</h2>
+            <hr>
+            <h3>For infomation on how we handle your data, veiw our privacy policy <a href="privacy.html">here.</a> </h3>
+        </div>
     
+        <div class="sign-up-format">
+            <div id="sign-up-form" >
+                <form action="" >
+                    <div class="sign-up-input">
+                        <label for="fname">First name: </label>
+                        <input type="text" name="fname" id="fname">
+                    </div>
+                    <div class="sign-up-input">
+                        <label for="email">E-mail:</label>
+                        <input type="email" name="email" id="email" >
+                    </div>
+                    <div class="sign-up-common-info">
+                        <div class="sign-up-input">
+                            <label for="password">Password: </label>
+                            <input type="password" name="password" id="password">
+                        </div>
+                        <div class="sign-up-input">
+                            <label for="confirm-password">Confirm password: </label>
+                            <input type="password" name="confirm-password" id="confirm-password">
+                        </div>
+                    </div>
+                    <div class="sign-up-input">
+                        <label for="phone-number">Mobile No.: </label>
+                        <input type="number" name="phone-number" id="phone-number">
+                    </div>
+                    <div class="sign-up-input">
+                        <label for="Gender">Gender: </label>
+                        <input type="radio" name="gender" id="gender" value="male">
+                    </div>
+                    <div class="sign-up-input">
+
+                        <label for="card-no"></label>
+                        <input type="number" id="card-no" name="card-no">
+                    </div>
+                </form>
+        
+    
+
+             </div>
+            <div id="sign-up-form-image">
+                <img src="assets/images/ahmed-carter-tiWcNvpQF4E-unsplash.jpg" alt="">
+            </div>
+
+        </div>
+    </div>
     <footer>
         <ul class="media-links">
             <li><a href="https://www.facebook.com/" target="blank" rel="noopener" 
