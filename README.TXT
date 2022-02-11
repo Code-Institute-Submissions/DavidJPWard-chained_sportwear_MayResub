@@ -74,6 +74,8 @@ Frameworks, Libraries & Programs Used
         LightBox was used to allow users to see a closeup of an image in the Gallery
     Javascript:
         Javascript was used for a pop up so that users can easily input theyre details to log in
+    unsplash:
+        some stock images were found from this site.
 
 Testing
 
@@ -101,50 +103,30 @@ Returning Visitor Goals
     -to be notified of any views of my store items and likes on my gallery posts 
         once a user is logged in they will have a notification bar in the top right that will show them any new views on theyre profile, messages, likes and orders.
     -to be able to find contact infomation to find out more about the organisation.
-        contact infomation is clearly shown on the contact paged which can be found at the bottom of the page.
+        contact infomation is clearly shown on the contact page which can be found at the bottom of the page.
     -to see any new post made by other users.
+        the homepage contains a direct link to the gallery page which will show all new picture posts with the newest showing up first, the blog page is easily found from the nav bar at the top of the page.
 
-    As a Returning Visitor, I want to find the new programming challenges or hackathons.
-        These are clearly shown in the banner message.
-        They will be directed to a page with another hero image and call to action.
-
-    As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-        The navigation bar clearly highlights the "Contact Us" Page.
-        Here they can fill out the form on the page or are told that alternatively they can message the organisation on social media.
-        The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the organization's email.
-        Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
-        The email button is set up to automatically open up your email app and autofill there email address in the "To" section.
-
-    As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
-        The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
-        Alternatively, the user can scroll to the bottom of the Home page to find the Facebook Group redirect card and can easily join by clicking the "Join Now!" button which like any external link, will open in a new tab to ensure they can get back to the website easily.
-        If the user is on the "Our Favourites" page they will also be greeted with a call to action button to invite the user to the Facebook group. The user is incentivized as they are told there is a weekly favourite product posted in the group.
-
+    
     Frequent User Goals
-
-        As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
-            The user would already be comfortable with the website layout and can easily click the banner message.
-
-        As a Frequent User, I want to check to see if there are any new blog posts.
-            The user would already be comfortable with the website layout and can easily click the blog link
-
-        As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
-            At the bottom of every page their is a footer which content is consistent throughout all pages.
-            To the right hand side of the footer the user can see "Subscribe to our Newsletter" and are prompted to Enter their email address.
-            There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.
+    
+        -to find any new blog official blog posts 
+            the blog page is clearly shown on the nav bar, frequent users will know where to find it, new blog posts will show up first.
+    -to see if ive had any sales.
+            notifications will appear in the top left for logged in users, sales will add a notification. emails will also be sent to the users inbox.
+    -to browse posts and help to inspire creative minded people
+            comments are allowed on blog posts and gallery posts to allow for interaction between users. 
 
 Further Testing
 
-    The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
-    The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
-    A large amount of testing was done to ensure that all pages were linking correctly.
-    Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+    The Website was tested on serveral browers including mozilla firefox, good chrome and microsoft edge.
+    site is responsive too all kinds of screen sizes including mobile.
+    links were tested throughly to insure they all work.
 
-Known Bugs
+Known issues
 
-    On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
-        A white gap can be seen to the right of the footer and navigation bar as a result.
-    On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
+    users cant currently create an account or log in, this functionality will be added later.
+    blog page is currently down, it is being worked on, time needed too allow for users to leave comments.
 
 Deployment
 GitHub Pages
@@ -193,19 +175,20 @@ Code
 
     The full-screen hero image code came from this StackOverflow post
 
-    Bootstrap4: Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+    https://www.youtube.com/watch?v=TSRtBISvsh4 - this youtube video showed me how to create a gallery
 
-    MDN Web Docs : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found Here
-
+    lightbox.css and lightbox-plus-jquery.min.js was taken from https://lokeshdhakar.com/projects/lightbox2/ 
 Content
 
     All content was written by the developer.
 
-    Psychological properties of colours text in the README.md was found here
 
 Media
 
-    All Images were created by the developer.
+    some images taken from unsplash.com
+
+    gallery and store images were taken from "chained sportswear" instagram.
+
 
 Acknowledgements
 

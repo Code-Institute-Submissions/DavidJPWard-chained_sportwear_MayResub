@@ -186,27 +186,29 @@ header{
 /* sign up page*/
 
 
-
-
 .sign-up-format{
-
+    display: flex;
     width: 100%;
-    background-color: brown;
+
     height: auto;
+    margin-top: 55px;
+
 
 }
 #sign-up-form{
-    background-color: aqua;
+    flex: 1;
+
     height: inherit;
     width: 45%;
         margin:0;
-        display: inline-block;
+
         text-align: center;
 }
 #sign-up-form-image{
+    flex: 1;
     height: 100%;
-    width: 40%;
-    background-color: coral;
+
+
     margin: 0;
     display: inline-block;  
 }
@@ -214,8 +216,8 @@ header{
 
 
 #sign-up-form-image img{
-    width: 400px;
-    height: 100%;
+    width: 480px;
+    height: 480px;
     border-radius: 50%;
 }
 .sign-up-input{
@@ -225,9 +227,15 @@ header{
     height: 50px;
 }
 
-.sign-up-common-info div{
-    margin: 0;
+.sign-up-common-info{
+    margin-bottom: 20px;
 }
+
+.sign-up-common-info div{
+    
+    height: 30px;
+}
+
 
 #sign-up-form input{
     
@@ -293,7 +301,7 @@ header{
 /*about*/
 
 #about{
-    height: 700px;
+    height: 750px;
 }
 
 #left-about{
@@ -389,13 +397,14 @@ header{
 /*footer*/
 
 footer{
-    height: 150px;
-    
+    height: 200px;
+    margin-top: 100px;
 }
 
 .media-links{
     text-align: center;
-    margin: 30px 0 0 0;
+    margin: 60px 0 0 0;
+    
 }
 
 .media-links > li{
