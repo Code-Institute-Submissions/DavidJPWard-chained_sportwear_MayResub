@@ -1,108 +1,225 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Chained Sportswear
 
-Welcome David Ward,
+"   " is a sportswear brand centered around using 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
-## Gitpod Reminders
+## Objectives
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+-First Time Visitor Objectives
 
-`python3 -m http.server`
+    -to instantly know what the site is, how it works and how to easily get involved
+    -to find out what can be done on the site, on what page and how to get there with no confusion
+    
 
-A blue button should appear to click: _Make Public_,
+-Returning Visitor Objectives
 
-Another blue button should appear to click: _Open Browser_.
+    -to be notified of any views of my store items and likes on my gallery posts 
+    -to be able to find contact infomation to find out more about the organisation.
+    -to see any new post made by other users.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+-Frequent User Objectives
 
-A blue button should appear to click: _Make Public_,
+    -to find any new blog official blog posts 
+    -to see if ive had any sales.
+    -to browse posts and help to inspire creative minded people
 
-Another blue button should appear to click: _Open Browser_.
+## Features
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Navigation Bar
 
-To log into the Heroku toolbelt CLI:
+The Site has a fixed nav bar that will stay at the top of the screen at all times. the left side of the nav bar has the logo which will take you to the home page when pressed and the right contains links to the other pages of the site, the current page youre on will be underlined with a pale blue and each link has an icon next to it, depicting what you typically wound find there. the is also a login pop up that allows for a username and password to be entered but this currently isnt in operation
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Footer
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+the footer contains links to the social media profiles of the company or, if the company is yet to make one, the social media websites main page, these profiles include instagram, twitter, facebook and tumblr. each icon will expand when hovered over to let the customer know they are links. there is also a link to a contact page and privacy policy.
 
-------
+### Contact Page
 
-## Release History
+the contact page contains infomation relevant to the user if they want to get in touch. the current infomation is for demonstration. the page also has the head offices in the google maps window that is embedded on the page
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Homepage
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+the landing page is the first page the user sees so it holds a breif description of the purpose of the site and its USP's. the landing page image is a stylised picture of some of the designs of the company. this images grows in size when first arriving at the site. scrolling down brings you to an "about us" section that contains three subheadings with useful links to other parts of the site.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### Gallery
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+the site has a gallery page for posts from both the company and its users. each picture expands and the colour fades out when the user hovers over the image. 
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+Design
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+Colour Scheme
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+    the main colours are black and white, most of the colour relies on the user posted content.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+Typography
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+    the main logo is lexand peta with abel used on majority of headers and paragraphs
+        Imagery
+            an image welcomes the user on the home page, with 3 smaller images below depicted the infomation i have given abotu what the site is about, there is a gallery page that contains imaged that can be uploaded by users.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+    Wireframes
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+        Home Page Wireframe - View
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+        Mobile Wireframe - View
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+        Contact Us Page Wireframe - View
 
-------
+Features
 
-## FAQ about the uptime script
+    Responsive on all device sizes
 
-**Why have you added this script?**
+    Interactive elements
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+    store page
 
-**How will this affect me?**
+    user accounts
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+    gallery
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+Technologies Used
+Languages Used
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+    HTML5
+    CSS3
 
-**So….?**
+Frameworks, Libraries & Programs Used
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+    Google maps:
+        maps were used to embed a map into my contact pages depicting the address of the office
+    Google Fonts:
+        Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+    Font Awesome:
+        Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+    Git
+        Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+    GitHub:
+        GitHub is used to store the projects code after being pushed from Git.
+    LightBox:
+        LightBox was used to allow users to see a closeup of an image in the Gallery
+    Javascript:
+        Javascript was used for a pop up so that users can easily input theyre details to log in
+    unsplash:
+        some stock images were found from this site.
 
-**Can I opt out?**
+Testing
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+    W3C Markup Validator - Results
+    W3C CSS Validator - Results
 
-**Anything more?**
+Testing User Stories from User Experience (UX) Section
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+First Time Visitor Goals
 
----
+    -to instantly know what the site is, how it works and how to easily get involved
+        on the landing page i amd greeted with infomation about what i can do on the site with direct links underneath each paragraph to the page where i can learn more, with a "sign up" button also readily avialible
+            
+    -to find out what can be done on the site, on what page and how to get there with no confusion
+        the pages are clearly sign posted on the nav bar which is fixed so it is always visible. there are a limited number of pages so the user can easily learn and remember what content is on each page
 
-Happy coding!
+    -access to the sites social media presence to get an idea of some of the work they promote
+        the media links are at the bottom, clearly visible and on every page, with a hover a effect so the user understand they can be pressed.
+
+
+Returning Visitor Goals
+
+    -to be notified of any views of my store items and likes on my gallery posts 
+        once a user is logged in they will have a notification bar in the top right that will show them any new views on theyre profile, messages, likes and orders.
+    -to be able to find contact infomation to find out more about the organisation.
+        contact infomation is clearly shown on the contact page which can be found at the bottom of the page.
+    -to see any new post made by other users.
+        the homepage contains a direct link to the gallery page which will show all new picture posts with the newest showing up first, the blog page is easily found from the nav bar at the top of the page.
+
+    
+    Frequent User Goals
+    
+        -to find any new blog official blog posts 
+            the blog page is clearly shown on the nav bar, frequent users will know where to find it, new blog posts will show up first.
+    -to see if ive had any sales.
+            notifications will appear in the top left for logged in users, sales will add a notification. emails will also be sent to the users inbox.
+    -to browse posts and help to inspire creative minded people
+            comments are allowed on blog posts and gallery posts to allow for interaction between users. 
+
+Further Testing
+
+    The Website was tested on serveral browers including mozilla firefox, good chrome and microsoft edge.
+    site is responsive too all kinds of screen sizes including mobile.
+    links were tested throughly to insure they all work.
+
+Known issues
+
+    users cant currently create an account or log in, this functionality will be added later.
+    blog page is currently down, it is being worked on, time needed too allow for users to leave comments.
+
+Deployment
+GitHub Pages
+
+The project was deployed to GitHub Pages using the following steps...
+
+    Log in to GitHub and locate the GitHub Repository
+    At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+        Alternatively Click Here for a GIF demonstrating the process starting from Step 2.
+    Scroll down the Settings page until you locate the "GitHub Pages" Section.
+    Under "Source", click the dropdown called "None" and select "Master Branch".
+    The page will automatically refresh.
+    Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+
+Forking the GitHub Repository
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+    Log in to GitHub and locate the GitHub Repository
+    At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+    You should now have a copy of the original repository in your GitHub account.
+
+Making a Local Clone
+
+    Log in to GitHub and locate the GitHub Repository
+    Under the repository name, click "Clone or download".
+    To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+    Open Git Bash
+    Change the current working directory to the location where you want the cloned directory to be made.
+    Type git clone, and then paste the URL you copied in Step 3.
+
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+
+    Press Enter. Your local clone will be created.
+
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+
+Click Here to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+Credits
+Code
+
+    The full-screen hero image code came from this StackOverflow post
+
+    https://www.youtube.com/watch?v=TSRtBISvsh4 - this youtube video showed me how to create a gallery
+
+    lightbox.css and lightbox-plus-jquery.min.js was taken from https://lokeshdhakar.com/projects/lightbox2/ 
+Content
+
+    All content was written by the developer.
+
+
+Media
+
+    some images taken from unsplash.com
+
+    gallery and store images were taken from "chained sportswear" instagram.
+
+
+Acknowledgements
+
+    My Mentor for continuous helpful feedback.
+
+    Tutor support at Code Institute for their support.
