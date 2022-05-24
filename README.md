@@ -6,23 +6,23 @@
 
 ## Objectives
 
--First Time Visitor Objectives
+- First Time Visitor Objectives
 
-    -to instantly know what the site is, how it works and how to easily get involved
-    -to find out what can be done on the site, on what page and how to get there with no confusion
+To instantly know what the site is, how it works and how to easily get involved
+To find out what can be done on the site, on what page and how to get there with no confusion
     
 
--Returning Visitor Objectives
+- Returning Visitor Objectives
 
-    -to be notified of any views of my store items and likes on my gallery posts 
-    -to be able to find contact infomation to find out more about the organisation.
-    -to see any new post made by other users.
+To be notified of any views of my store items and likes on my gallery posts 
+To be able to find contact infomation to find out more about the organisation.
+To see any new post made by other users.
 
--Frequent User Objectives
+- Frequent User Objectives
 
-    -to find any new blog official blog posts 
-    -to see if ive had any sales.
-    -to browse posts and help to inspire creative minded people
+To find any new blog official blog posts 
+To see if ive had any sales.
+To browse posts and help to inspire creative minded people
 
 ## Features
 
@@ -46,64 +46,73 @@ the landing page is the first page the user sees so it holds a breif description
 
 the site has a gallery page for posts from both the company and its users. each picture expands and the colour fades out when the user hovers over the image. 
 
+### Shop
+
+the shop page of the site shows purchaseable items of clothing. you are able to filter through size as well as rank the goods in common ways including price and user rating. each item is in its own container with its name, price, rating and a button for instant purchase.
+
+### Sign-up page 
+
+while this page is for show at the moment this is the general layout of an account creation page. it contains a form for users to enter theyre details. this page contains a link to the privacy policy of the company.
+
+### Upcoming Features
+
+- A blog page for users to follow for news and designs relating to the company
+
+- allow users to create an account.
 
 
-Design
 
-Colour Scheme
+## Design
 
-    the main colours are black and white, most of the colour relies on the user posted content.
+- Colour Scheme
 
-Typography
+the main colours are black and white, most of the colour relies on the user posted content.
 
-    the main logo is lexand peta with abel used on majority of headers and paragraphs
-        Imagery
-            an image welcomes the user on the home page, with 3 smaller images below depicted the infomation i have given abotu what the site is about, there is a gallery page that contains imaged that can be uploaded by users.
+- Typography
 
-    Wireframes
+the main logo is lexand peta with abel used on majority of headers and paragraphs
+        
+- Imagery
 
-        Home Page Wireframe - View
+an image welcomes the user on the home page, with 3 smaller images below depicted the infomation i have given abotu what the site is about, there is a gallery page that contains imaged that can be uploaded by users.
 
-        Mobile Wireframe - View
 
-        Contact Us Page Wireframe - View
 
-Features
+Wireframes
 
-    Responsive on all device sizes
+Home Page Wireframe - View
 
-    Interactive elements
+Mobile Wireframe - View
 
-    store page
+Contact Us Page Wireframe - View
 
-    user accounts
 
-    gallery
+## Technologies Used
 
-Technologies Used
-Languages Used
+### Languages Used
 
-    HTML5
-    CSS3
+- HTML5
+- CSS3
+- JavaScript
 
-Frameworks, Libraries & Programs Used
+### Frameworks, Libraries & Programs Used
 
-    Google maps:
-        maps were used to embed a map into my contact pages depicting the address of the office
-    Google Fonts:
-        Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
-    Font Awesome:
-        Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-    Git
-        Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-    GitHub:
-        GitHub is used to store the projects code after being pushed from Git.
-    LightBox:
-        LightBox was used to allow users to see a closeup of an image in the Gallery
-    Javascript:
-        Javascript was used for a pop up so that users can easily input theyre details to log in
-    unsplash:
-        some stock images were found from this site.
+- Google maps:
+maps were used to embed a map into my contact pages depicting the address of the office
+- Google Fonts:
+Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+- Font Awesome:
+Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+- Git
+Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+- GitHub:
+GitHub is used to store the projects code after being pushed from Git.
+- LightBox:
+LightBox was used to allow users to see a closeup of an image in the Gallery
+- Javascript:
+Javascript was used for a pop up so that users can easily input theyre details to log in
+- unsplash:
+some stock images were found from this site.
 
 Testing
 
@@ -114,10 +123,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 Testing User Stories from User Experience (UX) Section
 
+
 First Time Visitor Goals
 
     -to instantly know what the site is, how it works and how to easily get involved
-        on the landing page i amd greeted with infomation about what i can do on the site with direct links underneath each paragraph to the page where i can learn more, with a "sign up" button also readily avialible
+        on the landing page i am greeted with infomation about what i can do on the site with direct links underneath each paragraph to the page where i can learn more, with a "sign up" button also readily avialible
             
     -to find out what can be done on the site, on what page and how to get there with no confusion
         the pages are clearly sign posted on the nav bar which is fixed so it is always visible. there are a limited number of pages so the user can easily learn and remember what content is on each page
@@ -136,9 +146,9 @@ Returning Visitor Goals
         the homepage contains a direct link to the gallery page which will show all new picture posts with the newest showing up first, the blog page is easily found from the nav bar at the top of the page.
 
     
-    Frequent User Goals
+### Frequent User Goals
     
-        -to find any new blog official blog posts 
+-to find any new blog official blog posts 
             the blog page is clearly shown on the nav bar, frequent users will know where to find it, new blog posts will show up first.
     -to see if ive had any sales.
             notifications will appear in the top left for logged in users, sales will add a notification. emails will also be sent to the users inbox.
