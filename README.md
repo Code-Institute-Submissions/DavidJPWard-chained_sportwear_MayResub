@@ -89,18 +89,25 @@ an image welcomes the user on the home page, with 3 smaller images below depicte
 
 Google maps:
 - maps were used to embed a map into my contact pages depicting the address of the office
+
 Google Fonts:
 - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+
 Font Awesome:
 - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+
 Git
 - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+
 GitHub:
 - GitHub is used to store the projects code after being pushed from Git.
+
 LightBox:
 - LightBox was used to allow users to see a closeup of an image in the Gallery
+
 Javascript:
 - Javascript was used for a pop up so that users can easily input theyre details to log in
+
 unsplash:
 - some stock images were found from this site.
 
