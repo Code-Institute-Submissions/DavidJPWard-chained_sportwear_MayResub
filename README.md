@@ -8,21 +8,21 @@
 
 - First Time Visitor Objectives
 
-To instantly know what the site is, how it works and how to easily get involved
-To find out what can be done on the site, on what page and how to get there with no confusion
+    - To instantly know what the site is, how it works and how to easily get involved
+    - To find out what can be done on the site, on what page and how to get there with no confusion
     
 
 - Returning Visitor Objectives
 
-To be notified of any views of my store items and likes on my gallery posts 
-To be able to find contact infomation to find out more about the organisation.
-To see any new post made by other users.
+    - To be notified of any views of my store items and likes on my gallery posts 
+    - To be able to find contact infomation to find out more about the organisation.
+    - To see any new post made by other users.
 
 - Frequent User Objectives
 
-To find any new blog official blog posts 
-To see if ive had any sales.
-To browse posts and help to inspire creative minded people
+    - To find any new blog official blog posts 
+    - To see if ive had any sales.
+    - To browse posts and help to inspire creative minded people
 
 ## Features
 
@@ -98,28 +98,54 @@ Contact Us Page Wireframe - View
 ### Frameworks, Libraries & Programs Used
 
 - Google maps:
-maps were used to embed a map into my contact pages depicting the address of the office
+    - maps were used to embed a map into my contact pages depicting the address of the office
 - Google Fonts:
-Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
 - Font Awesome:
-Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 - Git
-Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 - GitHub:
-GitHub is used to store the projects code after being pushed from Git.
+    - GitHub is used to store the projects code after being pushed from Git.
 - LightBox:
-LightBox was used to allow users to see a closeup of an image in the Gallery
+    - LightBox was used to allow users to see a closeup of an image in the Gallery
 - Javascript:
-Javascript was used for a pop up so that users can easily input theyre details to log in
+    - Javascript was used for a pop up so that users can easily input theyre details to log in
 - unsplash:
-some stock images were found from this site.
+    - some stock images were found from this site.
 
-Testing
+### Testing
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+## Validation 
 
-    W3C Markup Validator - Results
-    W3C CSS Validator - Results
+I ran my code through the W3C validator, a number of them were free of errors such as "gallery.html", "index.html" and "store.html". style.css was also run through a css validator with no issue. the following html files however had errors. 
+
+### blog.html
+
+![blog.html validation](/assets/readMeImages/Blog.png)
+
+these are all fixed.
+
+### privacy.html
+
+![privacy.html validation](/assets/readMeImages/privacy.png) 
+
+these are all fixed.
+
+### signup.html
+
+![signup.html validation](/assets/readMeImages/sign-up.png)
+
+these are all fixed
+
+### contact.html
+
+![contact.html validation](/assets/readMeImages/contact.png)
+
+these issues are to do with the embedded google map window. I dont know how to remove these issues as it was code given to me by google. I have left them as they are.
+
+### style.css
+
 
 Testing User Stories from User Experience (UX) Section
 
