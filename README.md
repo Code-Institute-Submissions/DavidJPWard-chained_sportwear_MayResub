@@ -6,19 +6,19 @@
 
 ## Objectives
 
-- First Time Visitor Objectives
+#### First Time Visitor Objectives
 
     - To instantly know what the site is, how it works and how to easily get involved
     - To find out what can be done on the site, on what page and how to get there with no confusion
     
 
-- Returning Visitor Objectives
+#### Returning Visitor Objectives
 
     - To be notified of any views of my store items and likes on my gallery posts 
     - To be able to find contact infomation to find out more about the organisation.
     - To see any new post made by other users.
 
-- Frequent User Objectives
+#### Frequent User Objectives
 
     - To find any new blog official blog posts 
     - To see if ive had any sales.
@@ -77,16 +77,6 @@ the main logo is lexand peta with abel used on majority of headers and paragraph
 an image welcomes the user on the home page, with 3 smaller images below depicted the infomation i have given abotu what the site is about, there is a gallery page that contains imaged that can be uploaded by users.
 
 
-
-Wireframes
-
-Home Page Wireframe - View
-
-Mobile Wireframe - View
-
-Contact Us Page Wireframe - View
-
-
 ## Technologies Used
 
 ### Languages Used
@@ -97,165 +87,155 @@ Contact Us Page Wireframe - View
 
 ### Frameworks, Libraries & Programs Used
 
-- Google maps:
-    - maps were used to embed a map into my contact pages depicting the address of the office
-- Google Fonts:
-    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
-- Font Awesome:
-    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-- Git
-    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-- GitHub:
-    - GitHub is used to store the projects code after being pushed from Git.
-- LightBox:
-    - LightBox was used to allow users to see a closeup of an image in the Gallery
-- Javascript:
-    - Javascript was used for a pop up so that users can easily input theyre details to log in
-- unsplash:
-    - some stock images were found from this site.
+Google maps:
+   - maps were used to embed a map into my contact pages depicting the address of the office
+Google Fonts:
+   - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+Font Awesome:
+   - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+Git
+   - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+GitHub:
+   - GitHub is used to store the projects code after being pushed from Git.
+LightBox:
+   - LightBox was used to allow users to see a closeup of an image in the Gallery
+Javascript:
+   - Javascript was used for a pop up so that users can easily input theyre details to log in
+unsplash:
+   - some stock images were found from this site.
 
-### Testing
+## Testing
 
-## Validation 
+### Validation 
 
 I ran my code through the W3C validator, a number of them were free of errors such as "gallery.html", "index.html" and "store.html". style.css was also run through a css validator with no issue. the following html files however had errors. 
 
-### blog.html
+#### blog.html
 
 ![blog.html validation](/assets/readMeImages/Blog.png)
 
 these are all fixed.
 
-### privacy.html
+#### privacy.html
 
 ![privacy.html validation](/assets/readMeImages/privacy.png) 
 
 these are all fixed.
 
-### signup.html
+#### signup.html
 
 ![signup.html validation](/assets/readMeImages/sign-up.png)
 
 these are all fixed
 
-### contact.html
+#### contact.html
 
 ![contact.html validation](/assets/readMeImages/contact.png)
 
 these issues are to do with the embedded google map window. I dont know how to remove these issues as it was code given to me by google. I have left them as they are.
 
-### style.css
 
 
-Testing User Stories from User Experience (UX) Section
+## Testing User Stories from User Experience (UX) Section
 
 
-First Time Visitor Goals
+##### First Time Visitor Goals
 
-    -to instantly know what the site is, how it works and how to easily get involved
-        on the landing page i am greeted with infomation about what i can do on the site with direct links underneath each paragraph to the page where i can learn more, with a "sign up" button also readily avialible
+   - to instantly know what the site is, how it works and how to easily get involved
+       -  on the landing page i am greeted with infomation about what i can do on the site with direct links underneath each paragraph to the page where i can learn more, with a "sign up" button also readily avialible
             
-    -to find out what can be done on the site, on what page and how to get there with no confusion
-        the pages are clearly sign posted on the nav bar which is fixed so it is always visible. there are a limited number of pages so the user can easily learn and remember what content is on each page
+   - to find out what can be done on the site, on what page and how to get there with no confusion
+       - the pages are clearly sign posted on the nav bar which is fixed so it is always visible. there are a limited number of pages so the user can easily learn and remember what content is on each page
 
-    -access to the sites social media presence to get an idea of some of the work they promote
-        the media links are at the bottom, clearly visible and on every page, with a hover a effect so the user understand they can be pressed.
+   - access to the sites social media presence to get an idea of some of the work they promote
+       - the media links are at the bottom, clearly visible and on every page, with a hover a effect so the user understand they can be pressed.
 
 
-Returning Visitor Goals
+##### Returning Visitor Goals
 
-    -to be notified of any views of my store items and likes on my gallery posts 
-        once a user is logged in they will have a notification bar in the top right that will show them any new views on theyre profile, messages, likes and orders.
-    -to be able to find contact infomation to find out more about the organisation.
-        contact infomation is clearly shown on the contact page which can be found at the bottom of the page.
-    -to see any new post made by other users.
-        the homepage contains a direct link to the gallery page which will show all new picture posts with the newest showing up first, the blog page is easily found from the nav bar at the top of the page.
+   - to be notified of any views of my store items and likes on my gallery posts 
+       - once a user is logged in they will have a notification bar in the top right that will show them any new views on theyre profile, messages, likes and orders.
+   - to be able to find contact infomation to find out more about the organisation.
+       - contact infomation is clearly shown on the contact page which can be found at the bottom of the page.
+   - to see any new post made by other users.
+       - the homepage contains a direct link to the gallery page which will show all new picture posts with the newest showing up first, the blog page is easily found from the nav bar at the top of the page.
 
     
-### Frequent User Goals
+##### Frequent User Goals
     
--to find any new blog official blog posts 
-            the blog page is clearly shown on the nav bar, frequent users will know where to find it, new blog posts will show up first.
-    -to see if ive had any sales.
-            notifications will appear in the top left for logged in users, sales will add a notification. emails will also be sent to the users inbox.
-    -to browse posts and help to inspire creative minded people
-            comments are allowed on blog posts and gallery posts to allow for interaction between users. 
+   - to find any new blog official blog posts 
+       - the blog page is clearly shown on the nav bar, frequent users will know where to find it, new blog posts will show up first.
+   - to see if ive had any sales.
+       - notifications will appear in the top left for logged in users, sales will add a notification. emails will also be sent to the users inbox.
+   - to browse posts and help to inspire creative minded people
+       - comments are allowed on blog posts and gallery posts to allow for interaction between users. 
 
-Further Testing
+## Further Testing
 
-    The Website was tested on serveral browers including mozilla firefox, good chrome and microsoft edge.
-    site is responsive too all kinds of screen sizes including mobile.
-    links were tested throughly to insure they all work.
+The Website was tested on serveral browers including mozilla firefox, good chrome and microsoft edge.
+site is responsive too all kinds of screen sizes including mobile.
+links were tested throughly to insure they all work.
 
-Known issues
 
-    users cant currently create an account or log in, this functionality will be added later.
-    blog page is currently down, it is being worked on, time needed too allow for users to leave comments.
+## Deployment
 
-Deployment
-GitHub Pages
+### GitHub Pages
 
 The project was deployed to GitHub Pages using the following steps...
 
-    Log in to GitHub and locate the GitHub Repository
-    At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-        Alternatively Click Here for a GIF demonstrating the process starting from Step 2.
-    Scroll down the Settings page until you locate the "GitHub Pages" Section.
-    Under "Source", click the dropdown called "None" and select "Master Branch".
-    The page will automatically refresh.
-    Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+1. Log in to GitHub and locate the GitHub Repository
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+3. Alternatively Click Here for a GIF demonstrating the process starting from Step 2.
+4. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+5. Under "Source", click the dropdown called "None" and select "Master Branch".
+6. The page will automatically refresh.
+7. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
 
-Forking the GitHub Repository
+### Forking the GitHub Repository
 
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
-    Log in to GitHub and locate the GitHub Repository
-    At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
-    You should now have a copy of the original repository in your GitHub account.
+1. Log in to GitHub and locate the GitHub Repository
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
 
-Making a Local Clone
+### Making a Local Clone
 
-    Log in to GitHub and locate the GitHub Repository
-    Under the repository name, click "Clone or download".
-    To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
-    Open Git Bash
-    Change the current working directory to the location where you want the cloned directory to be made.
-    Type git clone, and then paste the URL you copied in Step 3.
+1.    Log in to GitHub and locate the GitHub Repository
+2.    Under the repository name, click "Clone or download".
+3.    To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4.    Open Git Bash
+5.    Change the current working directory to the location where you want the cloned directory to be made.
+6.    Type git clone, and then paste the URL you copied in Step 3.
 
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+    $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
-    Press Enter. Your local clone will be created.
+7. Press Enter. Your local clone will be created.
 
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-> Cloning into `CI-Clone`...
-> remote: Counting objects: 10, done.
-> remote: Compressing objects: 100% (8/8), done.
-> remove: Total 10 (delta 1), reused 10 (delta 1)
-> Unpacking objects: 100% (10/10), done.
+    $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+    > Cloning into `CI-Clone`...
+    > remote: Counting objects: 10, done.
+    > remote: Compressing objects: 100% (8/8), done.
+    > remove: Total 10 (delta 1), reused 10 (delta 1)
+    > Unpacking objects: 100% (10/10), done.
 
-Click Here to retrieve pictures for some of the buttons and more detailed explanations of the above process.
-Credits
-Code
+## Credits
 
-    The full-screen hero image code came from this StackOverflow post
+### Code
 
-    https://www.youtube.com/watch?v=TSRtBISvsh4 - this youtube video showed me how to create a gallery
+- The full-screen hero image code came from this StackOverflow post
 
-    lightbox.css and lightbox-plus-jquery.min.js was taken from https://lokeshdhakar.com/projects/lightbox2/ 
-Content
+- https://www.youtube.com/watch?v=TSRtBISvsh4 - this youtube video showed me how to create a gallery
 
-    All content was written by the developer.
+- lightbox.css and lightbox-plus-jquery.min.js was taken from https://lokeshdhakar.com/projects/lightbox2/ 
 
+### Content
 
-Media
+- All content was written by the developer.
 
-    some images taken from unsplash.com
+### Media
 
-    gallery and store images were taken from "chained sportswear" instagram.
+- some images taken from unsplash.com
 
+- gallery and store images were taken from "chained sportswear" instagram.
 
-Acknowledgements
-
-    My Mentor for continuous helpful feedback.
-
-    Tutor support at Code Institute for their support.
