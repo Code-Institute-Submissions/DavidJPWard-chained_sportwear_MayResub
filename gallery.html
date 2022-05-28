@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,28 +12,31 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Chained Sportswear</title>
 </head>
-<body>    
 
+<body>
+    <!-- log in button accompanied with popup to allow entering of credentials -->
     <div class="login-popup" id="login_popup">
         <button id="close" class="login-popup-button"><i class="fas fa-times-circle"></i></button>
-    <div class=login-popup2><h1 id="login-greeting">Welcome back!</h1></div>
-    <form class="login-details">
-        <label for="email"> E-mail: </label>
-        <input type="email" id="email" name="email" class="input">
-        <hr>
-        <label for="password"> Password: </label>
-        <input type="password" id="password" class="input" name="password">
-        <hr>
-                
-    </form>
+        <div class=login-popup2>
+            <h1 id="login-greeting">Welcome back!</h1>
+        </div>
+        <form class="login-details">
+            <label for="email"> E-mail: </label>
+            <input type="email" id="email" name="email" class="input">
+            <hr>
+            <label for="password"> Password: </label>
+            <input type="password" id="password" class="input" name="password">
+            <hr>
+
+        </form>
         <button class="login-popup-button">Log in <i class="fas fa-arrow-circle-right"></i></button>
         <p id="signup-message">first time? <a href="signup.html">sign up!</a> </p>
     </div>
-
+    <!-- Navigation bar with links to other pages -->
     <header>
         <a href="index.html">
             <h1 id=logo>Chained</h1>
-        </a> 
+        </a>
         <nav>
             <ul id=menu>
                 <li><a href="index.html" class="active"><i class="fas fa-home"></i> Home</a></li>
@@ -40,63 +44,69 @@
                 <li><a href="gallery.html"><i class="fas fa-image"></i> Gallery</a></li>
                 <li><a href="store.html"><i class="fas fa-shopping-bag"></i> Store</a></li>
 
-                
-                
+
+
 
             </ul>
-            
+
         </nav>
         <div id=nav-border>
             <button id="open" class=login-nav-button><i class="fas fa-user"></i>Login</button>
             <script src="assets/js/script.js"></script>
         </div>
     </header>
-
+    <!-- main body of page -->
     <div class="center-div">
-        
-        <div    class="image-placeholder">
+
+        <div class="image-placeholder">
             <div class="gallery-image">
-                <a href="assets/images/gallery(1).png" data-lightbox="mygallery"><img src="assets/images/gallery(1).png" alt="Mens summer wear"></a>
+                <a href="assets/images/gallery(1).png" data-lightbox="mygallery"><img src="assets/images/gallery(1).png"
+                        alt="Mens summer wear"></a>
             </div>
             <h2 class="gallery-image-text">
                 Summer mens
             </h2>
         </div>
-        <div    class="image-placeholder">
+        <div class="image-placeholder">
             <div class="gallery-image">
-                <a href="assets/images/gallery(2).png" data-lightbox="mygallery"><img src="assets/images/gallery(2).png" alt="Mens summer wear"></a>
+                <a href="assets/images/gallery(2).png" data-lightbox="mygallery"><img src="assets/images/gallery(2).png"
+                        alt="Mens summer wear"></a>
             </div>
             <h2 class="gallery-image-text">
                 Check this!
             </h2>
         </div>
-        <div    class="image-placeholder">
+        <div class="image-placeholder">
             <div class="gallery-image">
-                <a href="assets/images/gallery(3).png" data-lightbox="mygallery"><img src="assets/images/gallery(3).png" alt="Mens summer wear"></a>
+                <a href="assets/images/gallery(3).png" data-lightbox="mygallery"><img src="assets/images/gallery(3).png"
+                        alt="Mens summer wear"></a>
             </div>
             <h2 class="gallery-image-text">
                 Fall 2021
             </h2>
         </div>
-        <div    class="image-placeholder">
+        <div class="image-placeholder">
             <div class="gallery-image">
-                <a href="assets/images/gallery(4).png" data-lightbox="mygallery"><img src="assets/images/gallery(4).png" alt="Mens summer wear"></a>
+                <a href="assets/images/gallery(4).png" data-lightbox="mygallery"><img src="assets/images/gallery(4).png"
+                        alt="Mens summer wear"></a>
             </div>
             <h2 class="gallery-image-text">
                 summer 2021 designs
             </h2>
         </div>
-        <div    class="image-placeholder">
+        <div class="image-placeholder">
             <div class="gallery-image">
-                <a href="assets/images/gallery(5).png"><img src="assets/images/gallery(5).png" alt="Mens summer wear"></a>
+                <a href="assets/images/gallery(5).png"><img src="assets/images/gallery(5).png"
+                        alt="Mens summer wear"></a>
             </div>
             <h2 class="gallery-image-text">
                 summer preview
             </h2>
         </div>
-        <div    class="image-placeholder">
+        <div class="image-placeholder">
             <div class="gallery-image">
-                <a href="assets/images/gallery(6).png" data-lightbox="mygallery"><img src="assets/images/gallery(6).png" alt="Mens summer wear"></a>
+                <a href="assets/images/gallery(6).png" data-lightbox="mygallery"><img src="assets/images/gallery(6).png"
+                        alt="Mens summer wear"></a>
             </div>
             <h2 class="gallery-image-text">
                 Sportswear preview
@@ -105,17 +115,17 @@
     </div>
 
 
-
+    <!-- footer with media links -->
     <footer>
         <ul class="media-links">
-            <li><a href="https://www.facebook.com/" target="blank" rel="noopener" 
-                aria-label="visit our facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a></li>
-            <li><a href="https://www.instagram.com/" target="blank" rel="noopener" 
-                aria-label="visit our instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a></li>
-            <li><a href="https://www.tumblr.com/" target="blank" rel="noopener" 
-                aria-label="visit our tumblr page (opens in a new tab)"><i class="fab fa-tumblr"></i></a></li>
-            <li><a href="https://www.twitter.com" target="blank" rel="noopener" 
-                aria-label="visit our twitter page (opens in a new tab)"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://www.facebook.com/" target="blank" rel="noopener"
+                    aria-label="visit our facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/" target="blank" rel="noopener"
+                    aria-label="visit our instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.tumblr.com/" target="blank" rel="noopener"
+                    aria-label="visit our tumblr page (opens in a new tab)"><i class="fab fa-tumblr"></i></a></li>
+            <li><a href="https://www.twitter.com" target="blank" rel="noopener"
+                    aria-label="visit our twitter page (opens in a new tab)"><i class="fab fa-twitter"></i></a></li>
         </ul>
 
         <ul class="media-links" id="corperate">
@@ -125,4 +135,5 @@
         </ul>
     </footer>
 </body>
+
 </html>

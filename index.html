@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,28 +12,31 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Chained Sportswear</title>
 </head>
-<body>    
 
+<body>
+    <!-- log in button accompanied with popup to allow entering of credentials -->
     <div class="login-popup" id="login_popup">
         <button id="close" class="login-popup-button"><i class="fas fa-times-circle"></i></button>
-    <div class=login-popup2><h1 id="login-greeting">Welcome back!</h1></div>
-    <form class="login-details">
-        <label for="email"> E-mail: </label>
-        <input type="email" id="email" name="email" class="input">
-        <hr>
-        <label for="password"> Password: </label>
-        <input type="password" id="password" class="input" name="password">
-        <hr>
-                
-    </form>
+        <div class=login-popup2>
+            <h1 id="login-greeting">Welcome back!</h1>
+        </div>
+        <form class="login-details">
+            <label for="email"> E-mail: </label>
+            <input type="email" id="email" name="email" class="input">
+            <hr>
+            <label for="password"> Password: </label>
+            <input type="password" id="password" class="input" name="password">
+            <hr>
+
+        </form>
         <button class="login-popup-button">Log in <i class="fas fa-arrow-circle-right"></i></button>
         <p id="signup-message">first time? <a href="signup.html">sign up!</a> </p>
     </div>
-
+    <!-- Navigation bar with links to other pages -->
     <header>
         <a href="index.html">
             <h1 id=logo>Chained</h1>
-        </a> 
+        </a>
         <nav>
             <ul id=menu>
                 <li><a href="index.html" class="active"><i class="fas fa-home"></i> Home</a></li>
@@ -40,17 +44,19 @@
                 <li><a href="gallery.html"><i class="fas fa-image"></i> Gallery</a></li>
                 <li><a href="store.html"><i class="fas fa-shopping-bag"></i> Store</a></li>
 
-                
-                
+
+
 
             </ul>
-            
+
         </nav>
         <div id=nav-border>
             <button id="open" class=login-nav-button><i class="fas fa-user"></i>Login</button>
             <script src="assets/js/script.js"></script>
         </div>
     </header>
+    <!-- main body of page -->
+
     <section id=hero-outer>
         <div id=hero-image></div>
         <div id="cover-text">
@@ -60,55 +66,65 @@
     <section id=about>
         <div id=left-about>
             <h2>Unleashing your potential</h2>
-            <p> show the world what you can do, post and promote youre designs here and gain exposure from like minded creatives, inspire and be inspired!</p>
+            <p> show the world what you can do, post and promote youre designs here and gain exposure from like minded
+                creatives, inspire and be inspired!</p>
 
-            <h4>Start your journey here by signing up!  </h4> 
-                <a href="signup.html"><div class="about_button">Sign Up!</div></a>
-            
+            <h4>Start your journey here by signing up! </h4>
+            <a href="signup.html">
+                <div class="about_button">Sign Up!</div>
+            </a>
 
 
-         
+
+
 
             <img src="/assets/images/junior-ferreira-7esRPTt38nI-unsplash.jpg" alt="">
 
-        </div> 
+        </div>
 
         <div id=right-about>
 
-                <h2>Unblocking the block chain</h2>
-                <p>
-                    Here at <strong>Chained </strong>we believe in crypto, with chained anyone from big chains to independent sellers can offer theyre cloths for cash or a selection of cryptocurrencys including, bitcoin, ethereum, thether and ripple.
-                </p>
-                
-                    <h4>We strive to stock the newest designs, visit our store now </h4> 
-                    <a href="store.html"><div class="about_button">Visit Store!</div></a>
+            <h2>Unblocking the block chain</h2>
+            <p>
+                Here at <strong>Chained </strong>we believe in crypto, with chained anyone from big chains to
+                independent sellers can offer theyre cloths for cash or a selection of cryptocurrencys including,
+                bitcoin, ethereum, thether and ripple.
+            </p>
 
-                <img src="/assets/images/jievani-weerasinghe-zHI7m_FxpMU-unsplash.jpg" alt="">
+            <h4>We strive to stock the newest designs, visit our store now </h4>
+            <a href="store.html">
+                <div class="about_button">Visit Store!</div>
+            </a>
+
+            <img src="/assets/images/jievani-weerasinghe-zHI7m_FxpMU-unsplash.jpg" alt="">
 
 
         </div>
 
         <div id=center-about>
 
-                <h2>Unvieling the latest trends</h2>
-                <p>Explore our gallery where our sellers can post theyre newest designs, with our favourite being posted about in our blogs </p>
-                <h4>You can find our gallery here!  </h4> 
-                <a href="gallery.html"><div class="about_button">Visit Gallery!</div></a>
+            <h2>Unvieling the latest trends</h2>
+            <p>Explore our gallery where our sellers can post theyre newest designs, with our favourite being posted
+                about in our blogs </p>
+            <h4>You can find our gallery here! </h4>
+            <a href="gallery.html">
+                <div class="about_button">Visit Gallery!</div>
+            </a>
 
-                <img src="/assets/images/dom-hill-nimElTcTNyY-unsplash.jpg" alt="">
+            <img src="/assets/images/dom-hill-nimElTcTNyY-unsplash.jpg" alt="">
         </div>
     </section>
-    
+    <!-- footer with media links -->
     <footer>
         <ul class="media-links">
-            <li><a href="https://www.facebook.com/" target="blank" rel="noopener" 
-                aria-label="visit our facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a></li>
-            <li><a href="https://www.instagram.com/" target="blank" rel="noopener" 
-                aria-label="visit our instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a></li>
-            <li><a href="https://www.tumblr.com/" target="blank" rel="noopener" 
-                aria-label="visit our tumblr page (opens in a new tab)"><i class="fab fa-tumblr"></i></a></li>
-            <li><a href="https://www.twitter.com" target="blank" rel="noopener" 
-                aria-label="visit our twitter page (opens in a new tab)"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://www.facebook.com/" target="blank" rel="noopener"
+                    aria-label="visit our facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/" target="blank" rel="noopener"
+                    aria-label="visit our instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.tumblr.com/" target="blank" rel="noopener"
+                    aria-label="visit our tumblr page (opens in a new tab)"><i class="fab fa-tumblr"></i></a></li>
+            <li><a href="https://www.twitter.com" target="blank" rel="noopener"
+                    aria-label="visit our twitter page (opens in a new tab)"><i class="fab fa-twitter"></i></a></li>
         </ul>
 
         <ul class="media-links" id="corperate">
@@ -118,4 +134,5 @@
         </ul>
     </footer>
 </body>
+
 </html>

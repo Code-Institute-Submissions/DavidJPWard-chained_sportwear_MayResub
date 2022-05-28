@@ -1,21 +1,25 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Fashion blog to showcase, promote and sell Chained Sportswear merchandise">
-        <meta name="keywords" content="chained sportswear, fashion, blog">
-        <script src="https://kit.fontawesome.com/9363cd3469.js" crossorigin="anonymous"></script>
+<!DOCTYPE html>
+<html lang="en">
 
-        <link rel="stylesheet" href="assets/css/style.css">
-        <title>Chained Sportswear</title>
-    </head>
-    <body>    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fashion blog to showcase, promote and sell Chained Sportswear merchandise">
+    <meta name="keywords" content="chained sportswear, fashion, blog">
+    <script src="https://kit.fontawesome.com/9363cd3469.js" crossorigin="anonymous"></script>
 
-        <div class="login-popup" id="login_popup">
-            <button id="close" class="login-popup-button"><i class="fas fa-times-circle"></i></button>
-        <div class=login-popup2><h1 id="login-greeting">Welcome back!</h1></div>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Chained Sportswear</title>
+</head>
+
+<body>
+    <!-- log in button accompanied with popup to allow entering of credentials -->
+    <div class="login-popup" id="login_popup">
+        <button id="close" class="login-popup-button"><i class="fas fa-times-circle"></i></button>
+        <div class=login-popup2>
+            <h1 id="login-greeting">Welcome back!</h1>
+        </div>
         <form class="login-details">
             <label for="email"> E-mail: </label>
             <input type="email" id="email" name="email" class="input">
@@ -23,44 +27,40 @@
             <label for="password"> Password: </label>
             <input type="password" id="password" class="input" name="password">
             <hr>
-                    
+
         </form>
-            <button class="login-popup-button">Log in <i class="fas fa-arrow-circle-right"></i></button>
-            <p id="signup-message">first time? <a href="signup.html">sign up!</a> </p>
-        </div>
-
-        <header>
-            <a href="index.html">
-                <h1 id=logo>Chained</h1>
-            </a> 
-            <nav>
-                <ul id=menu>
-                    <li><a href="index.html" class="active"><i class="fas fa-home"></i> Home</a></li>
-                    <li><a href="blog.html"><i class="fas fa-pen"></i> Blog</a></li>
-                    <li><a href="gallery.html"><i class="fas fa-image"></i> Gallery</a></li>
-                    <li><a href="store.html"><i class="fas fa-shopping-bag"></i> Store</a></li>
-
-                    
-                    
-
-                </ul>
-                
-            </nav>
-            <div id=nav-border>
-                <button id="open" class=login-nav-button><i class="fas fa-user"></i>Login</button>
-                <script src="assets/js/script.js"></script>
-            </div>
-        </header>
-
-
-
-        <div class="center-div">    
-            <div class="title">
-        <h1 class="title">Only the very best!</h1>
-        <hr>
-        <h2>these are our top picks from our sellers on the site, order before theyre gone!</h2>
+        <button class="login-popup-button">Log in <i class="fas fa-arrow-circle-right"></i></button>
+        <p id="signup-message">first time? <a href="signup.html">sign up!</a> </p>
     </div>
-        <div class=store-nav> 
+
+    <header>
+        <a href="index.html">
+            <h1 id=logo>Chained</h1>
+        </a>
+        <nav>
+            <ul id=menu>
+                <li><a href="index.html" class="active"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="blog.html"><i class="fas fa-pen"></i> Blog</a></li>
+                <li><a href="gallery.html"><i class="fas fa-image"></i> Gallery</a></li>
+                <li><a href="store.html"><i class="fas fa-shopping-bag"></i> Store</a></li>
+            </ul>
+
+        </nav>
+        <div id=nav-border>
+            <button id="open" class=login-nav-button><i class="fas fa-user"></i>Login</button>
+            <script src="assets/js/script.js"></script>
+        </div>
+    </header>
+
+    <!-- main body of page -->
+
+    <div class="center-div">
+        <div class="title">
+            <h1 class="title">Only the very best!</h1>
+            <hr>
+            <h2>these are our top picks from our sellers on the site, order before theyre gone!</h2>
+        </div>
+        <div class=store-nav>
             <label for=filterbox class=store-filter>Sort By:</label>
             <Select name=filter id="filterbox" class=store-filter>
                 <option value="featured">Featured</option>
@@ -81,17 +81,17 @@
 
         <div class=store-item>
 
-                <img src="assets/images/store-yellowskirt.png" alt="">
-                <div>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </div>
-                <h5>Sunny Skirt</h5>
-                <h4>£65.00</h4>
-                <button>Buy Now</button>
+            <img src="assets/images/store-yellowskirt.png" alt="">
+            <div>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <h5>Sunny Skirt</h5>
+            <h4>£65.00</h4>
+            <button>Buy Now</button>
 
         </div>
         <div class=store-item>
@@ -139,29 +139,30 @@
                 <button>Buy Now</button>
             </div>
         </div>
-        </div>
+    </div>
 
-
-        <footer>
-            <ul class="media-links">
-                <li><a href="https://www.facebook.com/" target="blank" rel="noopener" 
+    <!-- footer with media links -->
+    <footer>
+        <ul class="media-links">
+            <li><a href="https://www.facebook.com/" target="blank" rel="noopener"
                     aria-label="visit our facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a></li>
-                <li><a href="https://www.instagram.com/" target="blank" rel="noopener" 
+            <li><a href="https://www.instagram.com/" target="blank" rel="noopener"
                     aria-label="visit our instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a></li>
-                <li><a href="https://www.tumblr.com/" target="blank" rel="noopener" 
+            <li><a href="https://www.tumblr.com/" target="blank" rel="noopener"
                     aria-label="visit our tumblr page (opens in a new tab)"><i class="fab fa-tumblr"></i></a></li>
-                <li><a href="https://www.twitter.com" target="blank" rel="noopener" 
+            <li><a href="https://www.twitter.com" target="blank" rel="noopener"
                     aria-label="visit our twitter page (opens in a new tab)"><i class="fab fa-twitter"></i></a></li>
-            </ul>
-
-            
+        </ul>
 
 
-            <ul class="media-links" id="corperate">
-                <li><a href="privacy.html">Privacy</a></li>
-                <li> - </li>
-                <li><a href="contact.html">Contact us</a></li>
-            </ul>
-        </footer>
-    </body>
-    </html>
+
+
+        <ul class="media-links" id="corperate">
+            <li><a href="privacy.html">Privacy</a></li>
+            <li> - </li>
+            <li><a href="contact.html">Contact us</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
