@@ -24,6 +24,38 @@ Chained sportswear is a clothing brand that allows users to both buy and sell cl
 - To see if I've had any sales.
 - To browse posts and help to inspire creative minded people
  
+## Final product
+
+### HomePage
+
+The Homepage describes the website and what can be done on the site. it contains links to parts of the website that I would like first time users to visit.
+
+![homePages](/assets/images/homepagefp.png
+ 
+### Store
+ 
+The storepage contains wares for sale that users can buy. users can also post their own wares to sell.
+
+![store](/assets/images/storefp.png
+ 
+### Gallery
+ 
+The gallery contains pictures of designs and ware that users can browse. many of which can be found in the store.
+ 
+![gallery](/assets/images/galleryfp.png
+
+### Sign up
+ 
+The sign up page is for new users to create an account.
+
+![sign up](/assets/images/signupfp.png)
+ 
+### Contact page
+ 
+This page contains useful information for getting in contact with the company
+
+![contact page](/assets/images/contactfp.png)
+
 ## Features
  
 ### Navigation Bar
@@ -121,6 +153,9 @@ LightBox:
  
 Javascript:
 - Javascript was used for a pop up so that users can easily input their details to log in
+
+node.js:
+ - used it
  
 unsplash:
 - some stock images were found from this site.
@@ -206,11 +241,9 @@ The project was deployed to GitHub Pages using the following steps...
  
 1. Log in to GitHub and locate the GitHub Repository
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-3. Alternatively Click Here for a GIF demonstrating the process starting from Step 2.
-4. Scroll down the Settings page until you locate the "GitHub Pages" Section.
-5. Under "Source", click the dropdown called "None" and select "Master Branch".
-6. The page will automatically refresh.
-7. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
  
 ### Forking the GitHub Repository
  
