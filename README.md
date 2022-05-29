@@ -155,7 +155,7 @@ Javascript:
 - Javascript was used for a pop up so that users can easily input their details to log in
 
 node.js:
- - used it
+ - used it for my gallery and nav bar
  
 unsplash:
 - some stock images were found from this site.
