@@ -1,5 +1,9 @@
 # Chained Sportswear
 
+ 
+Chained sportswear is a clothing brand that allows users to both buy and sell clothing using various well known cryptocurrencies. Similar to etsy and vinted and other e-commerce sites, users can post their designs and products, in hopes to gain sales and exposure. there is a social media element as well as users can like and share designs and follow creators they would like to support. chained will allow transactions with leading cryptocurrencies such as bitcoin and ethereum as well as other real-world currencies. Chained also has a clothing line, you can find news and designs on the blog and gallery pages.
+ 
+
 ## Objectives
  
 #### First Time Visitor Objectives
